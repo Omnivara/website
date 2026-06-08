@@ -9,10 +9,25 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      margin-top: 80px;
+      margin-top: 40px;
       line-height: 1.6;
       background-color: #f7f8fa;
       color: #081427;
+    }
+
+    nav {
+      margin-bottom: 25px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #081427;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #00DAFF;
     }
 
     .button {
@@ -26,6 +41,11 @@
       font-weight: bold;
     }
 
+    .button:hover {
+      background-color: #00DAFF;
+      color: #081427;
+    }
+
     .links a {
       margin: 0 12px;
       color: #00DAFF;
@@ -36,63 +56,82 @@
     .section {
       margin-top: 40px;
     }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
   </style>
 </head>
 
 <body>
 
-  <img src="logo-dark-2.png"
-       alt="Omnivara Logo"
-       width="220">
+  <div class="container">
 
-  <h1>Omnivara</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="contact.html">Contact</a>
+    </nav>
 
-  <h2>Building AI for Science, Engineering, and Discovery</h2>
+    <img src="logo-dark-2.png"
+         alt="Omnivara Logo"
+         width="220">
 
-  <p>
-    Omnivara develops intelligent systems that accelerate scientific discovery,
-    engineering innovation, and knowledge creation.
-  </p>
+    <h1>Omnivara</h1>
 
-  <a href="#projects" class="button">Explore Projects</a>
-
-  <div class="section">
-    <h3>Areas of Interest</h3>
-
-    <p>
-      AI for Scientific Discovery<br>
-      Engineering Design Automation<br>
-      Physics &amp; Photonics<br>
-      Computational Science<br>
-      Autonomous Research Systems
-    </p>
-  </div>
-
-  <div class="section" id="projects">
-    <h3>Projects</h3>
+    <h2>Building AI for Science, Engineering, and Discovery</h2>
 
     <p>
-      Scientific AI Assistant — In Development<br>
-      Photonics &amp; Metasurface Intelligence — Planned<br>
-      Research Automation Tools — Planned
+      Omnivara develops intelligent systems that accelerate scientific discovery,
+      engineering innovation, and knowledge creation.
     </p>
-  </div>
 
-  <div class="section">
-    <h3>Connect</h3>
+    <a href="projects.html" class="button">Explore Projects</a>
 
-    <div class="links">
-      <a href="https://github.com/Omnivara">GitHub</a>
-      <a href="https://www.linkedin.com/company/omnivara-ai/">LinkedIn</a>
+    <div class="section">
+      <h3>Areas of Interest</h3>
+
+      <p>
+        AI for Scientific Discovery<br>
+        Engineering Design Automation<br>
+        Physics &amp; Photonics<br>
+        Computational Science<br>
+        Autonomous Research Systems
+      </p>
     </div>
-  </div>
 
-  <div class="section">
-    <h3>Contact</h3>
+    <div class="section">
+      <h3>Featured Projects</h3>
 
-    <p>
-      hello@omnivara.ai
-    </p>
+      <p>
+        Scientific AI Assistant — In Development<br>
+        Photonics &amp; Metasurface Intelligence — Planned<br>
+        Research Automation Platform — Planned
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Connect</h3>
+
+      <div class="links">
+        <a href="https://github.com/Omnivara">GitHub</a>
+        <a href="https://www.linkedin.com/company/omnivara-ai/">LinkedIn</a>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Contact</h3>
+
+      <p>
+        hello@omnivara.ai
+      </p>
+    </div>
+
   </div>
 
 </body>
