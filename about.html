@@ -6,9 +6,43 @@
   <meta charset="utf-8">
   <style>
     body { font-family: Arial, sans-serif; text-align: center; background:#f7f8fa; color:#081427; line-height:1.6; }
-    .container { max-width: 900px; margin:auto; padding:40px 20px; }
-    nav a { margin:0 10px; color:#081427; font-weight:bold; text-decoration:none; }
-    nav a:hover { color:#00DAFF; }
+    .container { max-width: 900px; margin:auto; * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f7f8fa;
+  color: #081427;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+nav {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  margin-bottom: 35px;
+}
+
+nav a {
+  color: #081427;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00DAFF;
+}
   </style>
 </head>
 <body>
